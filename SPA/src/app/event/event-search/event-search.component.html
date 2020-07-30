@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <h6>By Helder Sousa - <a href="https://github.com/heldercsousa/Thisney.Ticket">git repository</a></h6>
+  <h4>Select an event of your choice</h4>
+</div>
+
+<ng-container *ngFor="let event of eventList">
+  <span (mouseenter)="hover=true" (mouseleave)="hover=false">
+    <div (click)="eventSelected(event)" [ngStyle]="{cursor: hover? 'pointer' : 'default' }">
+      {{ event.title }}
+    </div>
+    <hr>
+  </span>
+</ng-container>
+
