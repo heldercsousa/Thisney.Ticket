@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Thisney.Ticket.Mapping</AssemblyName>
+    <RootNamespace>Thisney.Ticket.Mapping</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AgileObjects.AgileMapper" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>

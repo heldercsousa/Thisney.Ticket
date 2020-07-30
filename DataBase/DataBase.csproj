@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Thisney.Ticket.DataBase</AssemblyName>
+    <RootNamespace>Thisney.Ticket.DataBase</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200729142347_Initial.cs" />
+    <Compile Remove="Migrations\20200729142347_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200729142939_Initial.cs" />
+    <Compile Remove="Migrations\20200729142939_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200729151506_Initial.cs" />
+    <Compile Remove="Migrations\20200729151506_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200729152005_Initial.cs" />
+    <Compile Remove="Migrations\20200729152005_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200729154624_Initial.cs" />
+    <Compile Remove="Migrations\20200729154624_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+  </ItemGroup>
+
+</Project>

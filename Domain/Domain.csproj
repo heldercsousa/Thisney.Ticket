@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Thisney.Ticket.Domain</AssemblyName>
+    <RootNamespace>Thisney.Ticket.Domain</RootNamespace>
+  </PropertyGroup>
+
+</Project>
